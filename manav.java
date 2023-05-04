@@ -1,12 +1,14 @@
 import java.util.Scanner ;
-import java.util.Locale;
+/*
+@author alfonso
+ */
 class Manav {
     public static void main(String[] args) {
 
         double  pear = 2.14, pearKg, apple = 3.67, appleKg, tomato = 1.11, tomatoKg, banana = 0.95,
                 bananaKg, eggplant = 5.0, eggplantKg ;
         double total1, total2, total3, total4, total5, totalFee ;
-        Scanner input =  new Scanner(System.in).useLocale(Locale.US);
+        Scanner input =  new Scanner(System.in);
 
 
         System.out.print("How many kilos of pears would you like to buy : ");

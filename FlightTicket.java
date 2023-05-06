@@ -10,7 +10,7 @@ public class FlightTicket {
         System.out.print("your age: ");
         age = inp.nextInt();
 
-        while (age < 0) {     // yaş 0 ın altında girildiğinde sürekli yaşı soracak döngüyü oluşturduk.
+        while (age < 0 ) {     // yaş 0 ın altında girildiğinde sürekli yaşı soracak döngüyü oluşturduk.
             System.out.print("your age: ");
             age = inp.nextInt();
         }
@@ -18,6 +18,10 @@ public class FlightTicket {
         System.out.print("Please enter that will you go distance: ");
         distance = inp.nextInt();
 
+        while (distance < 0 ) {     // mesafe 0 ın altında girildiğinde sürekli mesafe soracak döngüyü oluşturduk.
+            System.out.print("Please enter that will you go distance: ");
+            distance = inp.nextInt();
+        }
         price = (priceKm * distance);  // indirimsiz bilet fiyatı
 
         System.out.print("Only departure => 1 or Round trip => 2\n");

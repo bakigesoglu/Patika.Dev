@@ -6,7 +6,7 @@ public class perfectNumber {
         System.out.println("Enter a number : ");
         int number=inp.nextInt();
         int  total=0;
-        for(int i=1;i<number;i++){
+        for(int i=1;i<number;i++){  //ptbs toplamını bulmak için döngü olusturduk.
             if(number%i==0){
                 total=total+i;
             }
